@@ -1,0 +1,1 @@
+cmd_/home/son/Desktop/LinuxKenel_Basic/Linux_Driver/gioithieu/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/son/Desktop/LinuxKenel_Basic/Linux_Driver/gioithieu/hello.ko /home/son/Desktop/LinuxKenel_Basic/Linux_Driver/gioithieu/hello.o /home/son/Desktop/LinuxKenel_Basic/Linux_Driver/gioithieu/hello.mod.o ;  true
